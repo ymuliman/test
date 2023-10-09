@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device=width, initial-scale=1.0">
+        <title> imsqsh.dev </title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="app.js"></script>
+        <link rel="preconnect" href="link" rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&family=Young+Serif&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sliding-background">
+                <section class="header" id="header">
+                
+                    <nav> 
+                        <div class="nav-links" id="navLinks">                  
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="#header">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#projects">EXPERIENCE</a></li>
+                                <li><a href="#resume">RESUME</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </div>           
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </nav>
+                    
+                        <div class="text-box">
+                            <h1>imsqsh.dev</h1>
+                            <p>By Yash Mulimani.</p>
+                            <a href="" class="ui-button">Click the links to learn more!</a>
+                        </div>
+
+                </section>
+
+                <section class="about" id="about">
+                    <h1>About Me</h1>
+
+                    <div class="aboutme-col">
+                        <h3>Bio</h3>
+                        <p>Hello! My name is Yash Mulimani and I created this website to show off some of
+                            my projects, experiences, and give a little bit on insight into who I am. I got into Computer
+                            Science through playing video games from a young age with my friends and just wondering how all
+                            the features worked in the background. Nowadays, I have an interest in data, especially reslating
+                            on how to analyze and manage it.<br>
+                            Otherwise, I love playing reading, spending time with my family and dog, playing video games with
+                            friends, and photography!</p>
+                        </p>
+                    </div>     
+                    <div class="aboutme-row">
+                        <div class="aboutme-col">
+                            <h3>Info</h3>
+                            <p>Computer Science B.S.<br>
+                                Business Minor<br>
+                                Arizona State University: Barrett, The Honors College</p>
+                        </div>
+                        <div class="aboutme-col">
+                            <h3>Progamming Languages</h3>
+                            <p>Java, C, Python, Swift<br>Rust, Javascript, HTML, CSS</p>
+                        </div>
+                        <div class="aboutme-col">
+                            <h3>Courses</h3>
+                            <p>Algorithms, Data Structures, Computer Organization and Assembly,
+                                Object Oriented Programming, Discrete Math, Logic in Computer Science,
+                                Personal Finance, Microeconomics, Macroeconomics</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="projects" id="projects">
+                    <h1>Projects and Experience</h1>
+                    <div class="projects-row">
+                        <div class="projects-col">
+                            <h3>Sun Devil Satellite Laboratory</h3>
+                            <p>Utilizing Python to optimize the efficiency and management of the file transfer protocol of the CubeSat 
+                                which parses input data from a radio to the onboard computer and send commands to the appropriate subsystems. 
+                                Created Python scripts to convert Excel data to COSMOS text files for testing of a “flatsat” while removing 
+                                data to transmit satellite commands over both a wired link and radio.</p>
+                        </div>
+
+                        <div class="projects-col">
+                            <h3>Olive Branch</h3>
+                            <p>Collaborated with a team of four in the Watts College of Public Service to create an application prototype in Swift 
+                                to connect homeless individuals in the Phoenix metro area to mental health professionals.
+                                Integrated CoreData to save user log-in information between consecutive launches of the app prototype.
+                                Implemented features to search health care providers by name, to sort providers by services provided or distance, 
+                                and to show users their current distance from a provider’s office and directions based on the user’s location.</p>
+                        </div>
+
+                        <div class="projects-col">
+                            <h3>Undergraduate Teaching Assistant</h3>
+                            <p>Assisting in instruction to over 100 Introduction to Programming students, explaining and reinforcing difficult 
+                                concepts in Java to a variety of majors. Facilitating laboratory coding assignments, conducting office hours, 
+                                and holding “Innovation Workshops” to further technical skills within Fulton Schools of Engineering students.</p>
+                    
+                        </div>
+                    </div>    
+                </section>
+                
+                <section class="resume" id="resume">
+                    <h1>Resume</h1>
+                    <div class="resume-png">
+                        <img src="Documents/img/Yash Mulimani Resume.png" width="70%" height="1050px">
+                    </div>
+                </section> 
+                
+                <section class="contact" id="contact">
+                    <h1>Contact Me!</h1>
+                    <div>
+                    <a href="https://www.linkedin.com/in/yashmulimani/" class="ui-button" target="_blank">LinkedIn</a>
+                    <a href="mailto:yash.mulimani@gmail.com" class="ui-button">Gmail</a>
+                    <a href="https://github.com/imsqsh" class="ui-button" target="_blank">GitHub</a>
+                    </div>
+                </section>
+                
+                <section class="footer">
+                    <p>Made by Yash Mulimani</p>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
